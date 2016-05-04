@@ -1,3 +1,8 @@
+/*
+    Need to make sure I add some basic measures to prevent writing to memory i do not own.
+    If 'name' or 'username' is longer than 100 characters, that would be a bad thing, because i could be overwriting memory i do not own?
+    Google what happens when your variable is longer than what you allocate.
+*/
 #include <stdio.h>
 
 int main() {
